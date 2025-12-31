@@ -11,13 +11,13 @@
     <a href="https://forum.deuswiki.com">
         <img src="https://github.com/zatinu322/Var-Mod-Trash-Machina/assets/68562524/3d63e8f9-653c-4b4d-8ad2-6aa2d079fd2e", width="50", height="50", alt="Community Forum">
     </a><br/><br/>
-    <a href="https://github.com/zatinu322/stream_builds/releases/tag/v1.2.1-cr">
-        <img src="https://img.shields.io/badge/Community_Disaster-v1.2.1-0c7307" alt="Latest release"/>
+    <a href="https://github.com/zatinu322/stream_builds/releases/tag/v1.2.2-cr">
+        <img src="https://img.shields.io/badge/Community_Disaster-v1.2.2-0c7307" alt="Latest release"/>
     </a><br/>
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch">
       <img src="https://img.shields.io/badge/Community_Patch/Remaster_support-v1.14.1-blue" alt="Community Patch and Remaster support"/>
     </a><br/>
-    <img src="https://img.shields.io/badge/Release_date-31/12/2024-0c7307" alt="Release date"/>
+    <img src="https://img.shields.io/badge/Release_date-31/12/2025-0c7307" alt="Release date"/>
     
   </p>
 
@@ -29,7 +29,7 @@
 
 # Описание
 
-_Ex Machina Community Disaster_ - пользовательская сборка для [Community Remaster](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/) от `pavlikrpg`. Содержит очень много противоречивых правок и в целом предназначена лишь для периодического прохождения на канале [Павлик RPG](https://www.youtube.com/@pavlikrpg) в рамках традиционных перепрохождений игры.
+_Ex Machina Community Disaster_ - пользовательский форк [Community Remaster](https://github.com/DeusExMachinaTeam/EM-CommunityPatch/). Содержит очень много противоречивых правок и в целом предназначен лишь для периодического прохождения на канале [Павлик RPG](https://www.youtube.com/@pavlikrpg) в рамках традиционных перепрохождений игры.
 
 <a id="changelist_rus"></a>
 
@@ -61,16 +61,20 @@ _Ex Machina Community Disaster_ - пользовательская сборка 
 + Добавлена возможность сразиться с боссом-краном в Либриуме по ветке с отказом Лисе.
 + Количество кругов в гонке в Вахате уменьшено до одного.
 + В катсцену после уничтожения тарелки Ньери добавлены финальные титры. После катсцены добавлено оповещение о 100% завершении игры. После этого оповещения добавлена отсылка к моду `Vanilla Edition`.
++ В катсцене при первом осмотре дома Айвена, звуковая дорожка Бена заменена на монолог пастора Мартина Ссемпы.
 
 </details>
 <a id="download_rus"></a>
 
 # Скачать 
 * ### Для Community Remaster v1.14.1
-  * [Community Disaster v1.2.1](https://github.com/zatinu322/stream_builds/releases/tag/v1.2.1-cr) [RUS]
+  * [Community Disaster v1.2.2](https://github.com/zatinu322/stream_builds/releases/tag/v1.2.2-cr) [RUS]
 
 <details>
 <summary><h4>Предыдущие версии</h4></summary>
+
+* ### Для Community Remaster v1.14.1
+  * [Community Disaster v1.2.1](https://github.com/zatinu322/stream_builds/releases/tag/v1.2.1-cr) [RUS]
 
 * ### Для Community Remaster v1.14
 
@@ -141,4 +145,4 @@ _Ex Machina Community Disaster_ - пользовательская сборка 
 
 Исходный код проекта лицензирован под MIT-подобной лицензией (исключая коммерческое использование) и может быть свободно использован как основа для создания ваших собственных модов. Пожалуйста, не забывайте сохранять текст лицензии и ссылку на проект, если используете его части.
 
-Для подробностей, пожалуйста, ознакомьтесь с полным текстом лицензии в файле `LICENSE`.
+Для подробностей, пожалуйста, ознакомьтесь с полным текстом лицензии в файле [LICENSE](./LICENSE).

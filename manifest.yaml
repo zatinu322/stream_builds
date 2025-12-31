@@ -3,14 +3,14 @@ name: community_disaster
 
 # required human readable info
 display_name: Community Disaster
-version: "1.2.1"
-build: "241231a"
+version: "1.2.2"
+build: "251231a"
 description: |
-  Пользовательская сборка для Community Remaster. Содержит очень много противоречивых правок и в целом предназначена лишь для периодического прохождения на канале Павлик RPG в рамках традиционных перепрохождений игры.
+  Пользовательский форк Community Remaster. Содержит очень много противоречивых правок и в целом предназначен лишь для периодического прохождения на канале Павлик RPG в рамках традиционных перепрохождений игры.
 authors: pavlikrpg
 
 # optional human readable info
-release_date: 31/12/2024
+release_date: 31/12/2025
 language: ru
 link: https://github.com/zatinu322/stream_builds
 logo: assets/CommunityDisaster.png
@@ -31,6 +31,6 @@ prerequisites:
     - hd_gun_models
     - hd_vehicle_models
     - ost_remaster
-patcher_version_requirement: "2.2"
+patcher_version_requirement: "3.0.6"
 no_base_content: false
 optional_content: []
