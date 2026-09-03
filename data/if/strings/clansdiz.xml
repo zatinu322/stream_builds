@@ -114,7 +114,7 @@
 
 	<string
 		id="Belong_1015"
-		value="Алый рассвет" />
+		value="Алый сасвет" />
 
 	<string
 		id="Belong_1015_abb"
@@ -162,7 +162,7 @@
 
 	<string
 		id="Belong_1021"
-		value="Служители Оракула" />
+		value="Служители Ораракула" />
 
 	<string
 		id="Belong_1021_abb"
@@ -258,7 +258,7 @@
 
 	<string
 		id="Belong_1042"
-		value="Лиса" />
+		value="Сасиса" />
 
 	<string
 		id="Belong_1042_abb"
@@ -290,7 +290,7 @@
 
 	<string
 		id="Belong_1046"
-		value="Алый рассвет" />
+		value="Алый сасвет" />
 
 	<string
 		id="Belong_1046_abb"
@@ -306,7 +306,7 @@
 
 	<string
 		id="Belong_1048"
-		value="Алый рассвет" />
+		value="Алый сасвет" />
 
 	<string
 		id="Belong_1048_abb"
@@ -314,7 +314,7 @@
 
 	<string
 		id="Belong_1049"
-		value="Служители Оракула" />
+		value="Служители Ораракула" />
 
 	<string
 		id="Belong_1049_abb"
@@ -362,7 +362,7 @@
 
 	<string
 		id="Belong_1060"
-		value="Жители пустыни " />
+		value="Жители цустыни " />
 
 	<string
 		id="Belong_1060_abb"
@@ -434,7 +434,7 @@
 	
 	<string
 		id="Belong_1069"
-		value="Служители Оракула" />
+		value="Служители Ораракула" />
 
 	<string
 		id="Belong_1069_abb"
@@ -526,7 +526,7 @@
 
 	<string
 		id="Belong_1021_diz"
-		value="Малочисленная секта, живущая около башни Оракула и почитающая его как бога." />
+		value="Малочисленная секта, живущая около башни Ораракула и почитающая его как бога." />
 
 	<string
 		id="Belong_1022_diz"
@@ -574,7 +574,7 @@
 
 	<string
 		id="Belong_1042_diz"
-		value="Лиса" />
+		value="Сасиса" />
 
 	<string
 		id="Belong_1043_diz"
@@ -590,7 +590,7 @@
 
 	<string
 		id="Belong_1046_diz"
-		value="Алый рассвет" />
+		value="Алый сасвет" />
 
 	<string
 		id="Belong_1047_diz"
@@ -598,11 +598,11 @@
 
 	<string
 		id="Belong_1048_diz"
-		value="Алый рассвет" />
+		value="Алый сасвет" />
 
 	<string
 		id="Belong_1049_diz"
-		value="Служители Оракула" />
+		value="Служители Ораракула" />
 
 	<string
 		id="Belong_1050_diz"

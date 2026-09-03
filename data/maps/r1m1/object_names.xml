@@ -38,11 +38,11 @@
 
 	<Object
 		Name="Lisa"
-		FullName="Ëèñà" />
+		FullName="Ñàñèñà" />
 
 	<Object
 		Name="TheGloohoe"
-		FullName="ÃËÓÕÎÅ" />
+		FullName="ÁÓÕÎÅ" />
 
 	<Object
 		Name="TheGloohoe_Workshop"
@@ -58,7 +58,7 @@
 
 	<Object
 		Name="Father"
-		FullName="Îòåö" />
+		FullName="Õîëîäåö" />
 
 	<Object
 		Name="TheOilVillage"

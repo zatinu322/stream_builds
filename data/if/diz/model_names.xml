@@ -663,7 +663,7 @@
 	<Item
 		id="denscoutCab"
 		locForm="1"
-		value="Кабина Лисы" />
+		value="Кабина Сасисы" />
 
 	<Item
 		id="scoutCab01"
@@ -1023,7 +1023,7 @@
 	<Item
 		id="LisaCar"
 		locForm="1"
-		value="Лиса" />
+		value="Сасиса" />
 
 	<Item
 		id="DemoFighter1"
@@ -1564,7 +1564,7 @@
 	<Item
 		id="boss03"
 		locForm="0"
-		value="Оракул" />
+		value="Ораракул" />
 
 	<Item
 		id="boss04"
