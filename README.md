@@ -17,7 +17,7 @@
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch">
       <img src="https://img.shields.io/badge/Community_Patch/Remaster_support-v1.14.1-blue" alt="Community Patch and Remaster support"/>
     </a><br/>
-    <img src="https://img.shields.io/badge/Release_date-31/12/2025-0c7307" alt="Release date"/>
+    <img src="https://img.shields.io/badge/Latest_release-31/12/2025-0c7307" alt="Latest release"/>
     
   </p>
 

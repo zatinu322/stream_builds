@@ -26,11 +26,11 @@
 
 	<Object
 		Name="Bonny"
-		FullName="Бродяга Конни" />
+		FullName="Симпатяга Конни" />
 
 	<Object
 		Name="Bonny1"
-		FullName="Бродяга Конни" />
+		FullName="Симпатяга Конни" />
 
 	<Object
 		Name="AsgardBarman"
@@ -114,7 +114,7 @@
 
 	<Object
 		Name="MininWorker"
-		FullName="Рабочий Шарки" />
+		FullName="Рабочий Шкварки" />
 
 	<Object
 		Name="MininMer"

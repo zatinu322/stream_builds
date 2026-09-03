@@ -22,7 +22,7 @@
 
 	<Object
 		Name="Olme_Bar_Customer2"
-		FullName="Галден" />
+		FullName="Гладен" />
 <!--Object 
 		Name="Olme_Bar_Customer3"
 FullName = "Маркизыч"/-->
@@ -56,7 +56,7 @@ FullName = "Маркизыч"/-->
 
 	<Object
 		Name="FVOnOcean_Bar_Gomer"
-		FullName="Гомер" />
+		FullName="Забыл" />
 
 	<Object
 		Name="FVOnOcean_Bar_Barman"
