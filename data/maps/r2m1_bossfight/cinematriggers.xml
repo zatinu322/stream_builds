@@ -115,6 +115,7 @@
 			AddCinematicMessage( 77772, 0.1)
 			AddCinematicMessage( 77773, 0.1)
 			AddCinematicMessage( 77775, 0.1)
+			AddCinematicMessage( 77776, 0.1)
 
 			trigger:Deactivate()
 		</script>

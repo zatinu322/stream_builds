@@ -59,11 +59,79 @@
 		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
 		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
 		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
-		value="@ffffa600Community Patch / Remaster| | | |@ffffa600Александр «Seel» Парфененков||@ffffffffменеджер проекта, инструментарий, дизайн| | |@ffffa600Александр «ThePlain» Фатеев||@ffffffffинструментарий, графика, 3D моделирование| | |@ffffa600Алексей «__nEmPoBu4__» Смирнов||@ffffffff3D моделирование, скрипты, квесты| | |@ffffa600Анна Жукова||@ffffffffграфический дизайн| | |@ffffa600Антон Попов||@ffffffffмузыка| | |@ffffa600Владислав «OverLine» Курочкин||@ffffffffконтент-дизайн, картостроение| | |@ffffa600Дмитрий «Гном» Сащенко||@ffffffffскрипты, квесты, 3D моделирование| | |@ffffa600Иван «ICAS-14» Черепанов||@ffffffff3D моделирование| | |@ffffa600Леонид «KoYoT» Кочетов||@ffffffffисправление ошибок| | |@ffffa600Максим «Spok» Бердников||@ffffffff3D моделирование| | |@ffffa600Марк «Apocalypse007» Малыгин||@ffffffffтекстовые правки| | |@ffffa600Ник «EL_BIBIKA» Кононенко||@ffffffff3D моделирование| | |@ffffa600Павел «pavlikrpg» Иванов||@ffffffffскрипты, квесты| | |@ffffa600Серафим «Varisane» Шагин||@ffffffffконтент-дизайн, текстовые правки| | |@ffffa600Экспертный совет||@ffffffffBuba|Oracle|Rusya_27|Traygen|Семимахов| | |@ffffa600Тестирование||@ffffffffSuslo Red|Иван «MrKarfen» Атаманов|Семён «Omezera» Озерицкий|Pushistik_7977|Anarxolis|ScorpyX|Александр192|Terorchat| | |@ffffa600Отдельное спасибо||@ffffffffСообществу Deus Ex Machina|discord.gg/qKK2Efx||Сообществу EM2ch|vk.com/em2ch||Паблику Ex Machina Вконтакте|vk.com/exmachina2||Зрителям канала «Павлик RPG»||Нашим жёнам, девушкам, родственникам и кошкам,|которые терпели нас во время разработки||Всем тем, кто ждал и поддерживал этот проект"
+		value="@ffffa600Community Patch / Remaster| | | |
+		@ffffa600Александр «Seel» Парфененков||
+		@ffffffffменеджер проекта, инструментарий, дизайн| | |
+		@ffffa600Александр «ThePlain» Фатеев||
+		@ffffffffинструментарий, графика, 3D моделирование| | |
+		@ffffa600Алексей «__nEmPoBu4__» Смирнов||
+		@ffffffff3D моделирование, скрипты, квесты| | |
+		@ffffa600Анна Жукова||
+		@ffffffffграфический дизайн| | |
+		@ffffa600Антон Попов||
+		@ffffffffмузыка| | |
+		@ffffa600Владислав «OverLine» Курочкин||
+		@ffffffffконтент-дизайн, картостроение| | |
+		@ffffa600Дмитрий «Гном» Сащенко||
+		@ffffffffскрипты, квесты, 3D моделирование| | |
+		@ffffa600Иван «ICAS-14» Черепанов||
+		@ffffffff3D моделирование| | |
+		@ffffa600Леонид «KoYoT» Кочетов||
+		@ffffffffисправление ошибок| | |
+		@ffffa600Максим «Spok» Бердников||
+		@ffffffff3D моделирование| | |
+		@ffffa600Марк «Apocalypse007» Малыгин||
+		@ffffffffтекстовые правки| | |
+		@ffffa600Ник «EL_BIBIKA» Кононенко||
+		@ffffffff3D моделирование| | |
+		@ffffa600«pavlikrpg»||
+		@ffffffffскрипты, квесты| | |
+		@ffffa600Серафим «Varisane» Шагин||
+		@ffffffffконтент-дизайн, текстовые правки| | |
+		@ffffa600Экспертный совет||
+		@ffffffffBuba|Oracle|Rusya_27|Traygen|Семимахов| | |
+		@ffffa600Тестирование||
+		@ffffffffSuslo Red|
+		Иван «MrKarfen» Атаманов|
+		Семён «Omezera» Озерицкий|
+		Pushistik_7977|
+		Anarxolis|
+		ScorpyX|
+		Александр192|
+		Terorchat| | |
+		@ffffa600Отдельное спасибо||
+		@ffffffffСообществу Deus Ex Machina|
+		discord.gg/qKK2Efx||
+		Сообществу EM2ch|
+		vk.com/em2ch||
+		Паблику Ex Machina Вконтакте|
+		vk.com/exmachina2||
+		Зрителям канала «Павлик RPG»||
+		Нашим жёнам, девушкам, родственникам и кошкам,|
+		которые терпели нас во время разработки||
+		Всем тем, кто ждал и поддерживал этот проект"
 		sound=""
 		fontSize="18"
-		scrollSpeed="2.45"
-		time="62" />
+		scrollSpeed="3.6"
+		time="42" />
+	
+	<string
+		id="77776"
+		msgType="SCROLL"
+		image="data\if\ico\CinemaPanel\foreground_movie_shade_midle.dds"
+		upOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		downOverlay="data\if\ico\CinemaPanel\foreground_movie_shade_midle121.dds"
+		value="@ffffa600Community Disaster| | | |
+		@ffffa600Автор сборки||@ffffffffpavlikrpg| | |
+		@ffffa600Также приняли деятельное участие||
+		@ffffffffVELIKIY RUSS - ремастеринг звуков и диалогов|
+		Gnome627 - ремастеринг звуков и диалогов|
+		ThePlain - музыка для титров| | |
+		@ffffffffОтдельное спасибо всем зрителям канала «Павлик RPG» за советы по контенту"
+		sound=""
+		fontSize="18"
+		scrollSpeed="2.8"
+		time="20" />
 
 	<string
 		id="77774"
