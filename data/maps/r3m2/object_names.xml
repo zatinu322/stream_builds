@@ -22,7 +22,7 @@
 
 	<Object
 		Name="OracleDefenders_loc"
-		FullName="Пост стражей Оракула" />
+		FullName="Пост стражей Ораракула" />
 
 	<Object
 		Name="ToR3M1"
@@ -54,7 +54,7 @@
 
 	<Object
 		Name="OracleNPC"
-		FullName="Оракул" />
+		FullName="Ораракул" />
 
 	<Object
 		Name="OracleGuardian_1"
