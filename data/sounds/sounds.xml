@@ -1807,4 +1807,10 @@
 		file="data\sounds\CinematicSound\crash.wav"
 		group="CINEMATIC_1"
 		/>
+
+		<model
+			id="S_KAITYP_KIT01"
+			file="data\sounds\CinematicSound\kaityp-kit.wav"
+			group="CINEMATIC"
+		/>
 </sounds>

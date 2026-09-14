@@ -2238,6 +2238,8 @@
 
 		<Item id="S_ENGINE_TANK_HIGH"/>
 
+		<Item id="S_KAITYP_KIT01" />
+
 	</SoundsServer>
 
 	<MusicServer />

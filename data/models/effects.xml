@@ -3245,4 +3245,9 @@
 		</Node>
 	</Node>
 
+	<!-- Зомбирующий эмбиент тарелки -->
+	<Node name="ET_S_KAITYP_KIT01" class="SgNode">
+		<Node name="noise" class="SgSoundSourceNode" id="S_KAITYP_KIT01" looped="1" /> 
+	</Node>
+
 </Prefabs>
