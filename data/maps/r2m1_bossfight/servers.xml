@@ -568,609 +568,609 @@
 			file="data\models\AnimModels.xml" />
 
 <!-- vehicles -->
-		<Item 
-			id="tankChassis" 
+		<Item
+			id="tankChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="tank01" 
+		<Item
+			id="tank01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="tank01gun" 
+		<Item
+			id="tank01gun"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="tankWheel01" 
+		<Item
+			id="tankWheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="dozerChassis" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="dozerChassis"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="dozerCab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="dozerCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="dozerSusp01" 
+		<Item
+			id="dozerSusp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="dozerSusp02" 
+		<Item
+			id="dozerSusp02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="dozerWheel01" 
+		<Item
+			id="dozerWheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml1Chassis" 
+		<Item
+			id="sml1Chassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 	
-			id="sml1Cab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="sml1Cab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
 
-		<Item 
-			id="sml1Susp01" 
+		<Item
+			id="sml1Susp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml1Susp02" 
+		<Item
+			id="sml1Susp02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml1Wheel01" 
+		<Item
+			id="sml1Wheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml1Wheel02" 
+		<Item
+			id="sml1Wheel02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml2Chassis" 
+		<Item
+			id="sml2Chassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml2Cab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="sml2Cab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
 
-		<Item 
-			id="sml2Cab01_formula" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="sml2Cab01_formula"
+			file="data\models\AnimModels.xml"
 			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
 
-		<Item 
-			id="sml2Susp01" 
+		<Item
+			id="sml2Susp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml2Susp02" 
+		<Item
+			id="sml2Susp02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml2Wheel01" 
+		<Item
+			id="sml2Wheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml2Wheel02" 
+		<Item
+			id="sml2Wheel02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml3Chassis" 
+		<Item
+			id="sml3Chassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml3Cab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="sml3Cab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 0 1 2 3 5 8 9 10 11 12 15 16;" />
 
-		<Item 
-			id="sml3Susp01" 
+		<Item
+			id="sml3Susp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml3Susp02" 
+		<Item
+			id="sml3Susp02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 	
-			id="sml3Wheel01" 
+		<Item
+			id="sml3Wheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml4Chassis" 
+		<Item
+			id="sml4Chassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml4Cab01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="sml4Cab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="sml4Susp01" 
+		<Item
+			id="sml4Susp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 	
-			id="sml4Susp02" 
+		<Item
+			id="sml4Susp02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml4Wheel01" 
+		<Item
+			id="sml4Wheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sml4Wheel02" 
+		<Item
+			id="sml4Wheel02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="scoutChassis" 
+		<Item
+			id="scoutChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="scoutCab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="scoutCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 0 1 2 3 5 8;" />
 
-		<Item 
-			id="scoutCab02" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="scoutCab02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 0 1 2 3 5 8;" />
 
-		<Item 
-			id="scoutCab03" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="scoutCab03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="scoutSusp01" 
+		<Item
+			id="scoutSusp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="scoutSusp02" 
+		<Item
+			id="scoutSusp02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="scoutWheel01" 
+		<Item
+			id="scoutWheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="scoutWheel02" 
+		<Item
+			id="scoutWheel02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="fighterChassis" 
+		<Item
+			id="fighterChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 	
-			id="fighterCab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="fighterCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="fighterCab02" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="fighterCab02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 	
-			id="fighterSusp01l" 
+		<Item
+			id="fighterSusp01l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="fighterSusp01r" 
+		<Item
+			id="fighterSusp01r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="fighterSusp02l" 
+		<Item
+			id="fighterSusp02l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="fighterSusp02r" 
+		<Item
+			id="fighterSusp02r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="fighterWheel01l" 
+		<Item
+			id="fighterWheel01l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="fighterWheel01r" 
+		<Item
+			id="fighterWheel01r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="fighterWheel02l" 
+		<Item
+			id="fighterWheel02l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="fighterWheel02r" 
+		<Item
+			id="fighterWheel02r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="hunterChassis" 
+		<Item
+			id="hunterChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="hunterCab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="hunterCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="hunterCab02" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="hunterCab02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="hunterSusp01" 
+		<Item
+			id="hunterSusp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="hunterWheel01l" 
+		<Item
+			id="hunterWheel01l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="hunterWheel01r" 
+		<Item
+			id="hunterWheel01r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="cruiserChassis" 
+		<Item
+			id="cruiserChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="cruiserCab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="cruiserCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="cruiserCab02" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="cruiserCab02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="cruiserCargo01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="cruiserCargo01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="cruiserCargo02" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="cruiserCargo02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
-			
-		<Item 
-			id="cruiserSusp01" 
+
+		<Item
+			id="cruiserSusp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="cruiserWheel01l" 
+		<Item
+			id="cruiserWheel01l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="cruiserWheel01r" 
+		<Item
+			id="cruiserWheel01r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="bugChassis" 
+		<Item
+			id="bugChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="bugCab01" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="bugCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="bugCab02" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="bugCab02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="bugCab03" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="bugCab03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="bugCargo01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="bugCargo01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="bugCargo02" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="bugCargo02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="bugCargo03" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="bugCargo03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="bugSusp01" 
+		<Item
+			id="bugSusp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="bugSusp02" 
+		<Item
+			id="bugSusp02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="bugWheel01" 
+		<Item
+			id="bugWheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="bugWheel02" 
+		<Item
+			id="bugWheel02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="uralChassis" 
+		<Item
+			id="uralChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="uralCab01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCab02" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCab02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCab03" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCab03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCab04" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCab04"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCab05" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCab05"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCargo01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCargo01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCargo02" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCargo02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCargo03" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCargo03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCargo04" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCargo04"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralCargo05" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="uralCargo05"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="uralSusp01" 
+		<Item
+			id="uralSusp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="uralSusp02" 
+		<Item
+			id="uralSusp02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="uralWheel01l" 
+		<Item
+			id="uralWheel01l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="uralWheel01r" 
+		<Item
+			id="uralWheel01r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="uralWheel02l" 
+		<Item
+			id="uralWheel02l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="uralWheel02r" 
+		<Item
+			id="uralWheel02r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="molokovozChassis" 
+		<Item
+			id="molokovozChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="molokovozCab01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="molokovozCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="molokovozCab02" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="molokovozCab02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="molokovozCab03" 
-			file="data\models\AnimModels.xml"    
+		<Item
+			id="molokovozCab03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="molokovozCargo01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="molokovozCargo01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="molokovozCargo02" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="molokovozCargo02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="molokovozCargo03" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="molokovozCargo03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="molokovozCargo04" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="molokovozCargo04"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8 9 10 11 12 14 15 16;" />
 
-		<Item 
-			id="molokovozSus_f_r" 
+		<Item
+			id="molokovozSus_f_r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="molokovozSus_f_l" 
+		<Item
+			id="molokovozSus_f_l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="molokovozSus_r_r" 
-			file="data\models\AnimModels.xml"/>
-		
-		<Item 
-			id="molokovozSus_r_l" 
+		<Item
+			id="molokovozSus_r_r"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="molokovozWheel01" 
+		<Item
+			id="molokovozSus_r_l"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="molokovozTrailer01Chassis" 
+		<Item
+			id="molokovozWheel01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="molokovozTrailer01Basket" 
+		<Item
+			id="molokovozTrailer01Chassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="belazChassis" 
+		<Item
+			id="molokovozTrailer01Basket"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="belazCab01" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCab02" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCab03" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCab04" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCab05" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCargo01" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCargo02" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCargo03" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCargo04" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazCargo05" 
-			file="data\models\AnimModels.xml"   
-			params = "skins: 1 2 3 5 8;" />
-
-		<Item 
-			id="belazSusp01" 
+		<Item
+			id="belazChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="belazWheel01L" 
+		<Item
+			id="belazCab01"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCab02"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCab03"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCab04"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCab05"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCargo01"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCargo02"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCargo03"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCargo04"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazCargo05"
+			file="data\models\AnimModels.xml"
+			params = "skins: 1 2 3 5 8;" />
+
+		<Item
+			id="belazSusp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="belazWheel01R" 
+		<Item
+			id="belazWheel01L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="mirotvorecChassis" 
+		<Item
+			id="belazWheel01R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="mirotvorecSusp01" 
+		<Item
+			id="mirotvorecChassis"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="mirotvorecWheel01" 
+		<Item
+			id="mirotvorecSusp01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="mirotvorecCab01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecWheel01"
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="mirotvorecCab01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="mirotvorecCargo01" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCargo01"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="mirotvorecCab02" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCab02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="mirotvorecCargo02" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCargo02"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="mirotvorecCab03" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCab03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="mirotvorecCargo03" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCargo03"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="mirotvorecCab04" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCab04"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 	
-			id="mirotvorecCargo04" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCargo04"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="mirotvorecCab05" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCab05"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
-		<Item 
-			id="mirotvorecCargo05" 
-			file="data\models\AnimModels.xml"   
+		<Item
+			id="mirotvorecCargo05"
+			file="data\models\AnimModels.xml"
 			params = "skins: 1 2 3 5 8;" />
 
 		<Item
@@ -2123,188 +2123,188 @@
 			file="data\models\AnimModels.xml" />
 
 <!-- For Effect -->
-		<Item 
-			id="barrel_debris" 
+		<Item
+			id="barrel_debris"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="barrel_debris_1" 
-			file="data\models\AnimModels.xml"/>
-			
-		<Item 
-			id="tankeg_dyn" 
+		<Item
+			id="barrel_debris_1"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="wood_debris1" 
-			file="data\models\AnimModels.xml"/>
-			
-		<Item 
-			id="wood_debris2" 
+		<Item
+			id="tankeg_dyn"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="sedge_grass_3" 
+		<Item
+			id="wood_debris1"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="laser02" 
+		<Item
+			id="wood_debris2"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotgun01gun" 
+		<Item
+			id="sedge_grass_3"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotgun01" 
+		<Item
+			id="laser02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="minoYkladchiK_1" 
+		<Item
+			id="robotgun01gun"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="minoYkladchiK_2" 
+		<Item
+			id="robotgun01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotshassis01" 
+		<Item
+			id="minoYkladchiK_1"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension01_L" 
+		<Item
+			id="minoYkladchiK_2"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension01_R" 
+		<Item
+			id="robotshassis01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension02_L" 
+		<Item
+			id="robotsuspension01_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension02_R" 
+		<Item
+			id="robotsuspension01_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension03_L" 
+		<Item
+			id="robotsuspension02_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension03_R" 
+		<Item
+			id="robotsuspension02_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension04_L" 
+		<Item
+			id="robotsuspension03_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension04_R" 
+		<Item
+			id="robotsuspension03_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension05_L" 
+		<Item
+			id="robotsuspension04_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotsuspension05_R" 
+		<Item
+			id="robotsuspension04_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotcab01" 
+		<Item
+			id="robotsuspension05_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 	
-			id="robotwheel_big_left" 
+		<Item
+			id="robotsuspension05_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotwheel_big_right" 
+		<Item
+			id="robotcab01"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotwheel_sml_left" 
+		<Item
+			id="robotwheel_big_left"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotwheel_sml_right" 
+		<Item
+			id="robotwheel_big_right"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotcab02" 
+		<Item
+			id="robotwheel_sml_left"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robotshassis02" 
+		<Item
+			id="robotwheel_sml_right"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension01_L" 
+		<Item
+			id="robotcab02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension01_R" 
+		<Item
+			id="robotshassis02"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension02_L" 
+		<Item
+			id="robot2suspension01_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension02_R" 
+		<Item
+			id="robot2suspension01_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension03_L" 
+		<Item
+			id="robot2suspension02_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension03_R" 
+		<Item
+			id="robot2suspension02_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension04_L" 
+		<Item
+			id="robot2suspension03_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension04_R" 
+		<Item
+			id="robot2suspension03_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension05_L" 
+		<Item
+			id="robot2suspension04_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension05_R" 
+		<Item
+			id="robot2suspension04_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension06_L" 
+		<Item
+			id="robot2suspension05_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension06_R" 
+		<Item
+			id="robot2suspension05_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension07_L" 
+		<Item
+			id="robot2suspension06_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension07_R" 
+		<Item
+			id="robot2suspension06_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension08_L" 
+		<Item
+			id="robot2suspension07_L"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="robot2suspension08_R" 
+		<Item
+			id="robot2suspension07_R"
 			file="data\models\AnimModels.xml"/>
 
-		<Item 
-			id="repair_robot" 
+		<Item
+			id="robot2suspension08_L"
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="robot2suspension08_R"
+			file="data\models\AnimModels.xml"/>
+
+		<Item
+			id="repair_robot"
 			file="data\models\AnimModels.xml"/>
 
 		<Item
@@ -2345,13 +2345,13 @@
 		<Item id="S_CRASH_METAL02" />
 		<Item id="S_CRASH_METAL03" />
 		<Item id="S_CRASH_METAL04" />
-		
+
 		<Item id="S_CRASH_TREE01" />
 		<Item id="S_CRASH_TREE02" />
 		<Item id="S_CRASH_TREE03" />
 		<Item id="S_CRASH_TREE04" />
 		<Item id="S_CRASH_TREE05" />
-		
+
 		<Item id="S_CRASH_WOOD01" />
 		<Item id="S_CRASH_WOOD02" />
 		<Item id="S_CRASH_WOOD03" />
@@ -2378,7 +2378,7 @@
 		<Item id="S_PNEUMO_BRAKE01" />
 		<Item id="S_GEAR_SHIFT01" />
 
-		<!-- Engines --> 
+		<!-- Engines -->
 
 		<Item id="S_ENGINE_BEETLE_1_HIGH" />
 		<Item id="S_ENGINE_BEETLE_2_HIGH" />
@@ -2412,13 +2412,14 @@
 		<Item id="S_ENGINE_FIGHTER_1_HIGH" />
 		<Item id="S_ENGINE_HUNTER_1_HIGH" />
 		<Item id="S_ENGINE_CRUISER_1_HIGH" />
+        <Item id="S_ENGINE_DOZER_1_HIGH" />
 
-		<!-- Missiles --> 
+		<!-- Missiles -->
 
 		<Item id="S_MISSILE1" />
 		<Item id="S_MISSILE2" />
 
-		<!-- Shooting --> 
+		<!-- Shooting -->
 
 
 		<Item id="S_SHOOTING_CANNON01" />
@@ -2475,7 +2476,7 @@
 		<Item id="S_SHOOTING_TURBO" />
 		<Item id="S_TANK_SHOOT" />
 
-		<!-- Shoot hits --> 
+		<!-- Shoot hits -->
 
 		<Item id="S_SHOOT_HIT01" />
 		<Item id="S_SHOOT_HIT02" />
@@ -2494,7 +2495,7 @@
 		<Item id="S_BULLET09" />
 		<Item id="S_BULLET05" />
 
-		<!-- Explosions --> 
+		<!-- Explosions -->
 
 
 		<Item id="S_EXPLOSION01" />
@@ -2618,7 +2619,7 @@
 		<Item id="S_BOSS02_ATTACK1" />
 		<Item id="S_BOSS02_ATTACK2" />
 		<Item id="S_BOSS02_BLOCK1" />
-		    
+
 
 		<Item id="S_BOSS03_STAND1" />
 

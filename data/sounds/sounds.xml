@@ -436,6 +436,11 @@
 		file="data\sounds\Driving\Motors\formula_driving_high.wav"
 		group="ENGINE"
 		/>
+		<model
+			id="S_ENGINE_DOZER_1_HIGH"
+			file="data\sounds\Driving\Motors\traktor.wav"
+			group="ENGINE"
+		/>
 
 <!-- Missiles --> 
 

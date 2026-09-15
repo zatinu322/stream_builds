@@ -1030,7 +1030,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxPower			= "10"
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxTorque			= "150"
-			EngineHighSound		= "ET_S_ENGINE_MIR_5_HIGH"
+			EngineHighSound		= "ET_S_ENGINE_DOZER_HIGH"
 	        VisibleInEncyclopedia = "false"
 			Price				= "50000"	
 			MaxSpeed			= "85.0"

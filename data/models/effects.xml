@@ -3062,7 +3062,8 @@
 		<Node name="ET_S_ENGINE_FORMULA_1_LOW"		class="SgSoundSourceNode" id="S_ENGINE_FORMULA_1_LOW" /> 
 		<Node name="ET_S_ENGINE_FORMULA_1_HIGH"		class="SgSoundSourceNode" id="S_ENGINE_FORMULA_1_HIGH" /> 
 
-            <Node name="ET_S_ENGINE_TANK_HIGH"		            class="SgSoundSourceNode" id="S_ENGINE_TANK_HIGH" /> 
+        <Node name="ET_S_ENGINE_TANK_HIGH"	class="SgSoundSourceNode" id="S_ENGINE_TANK_HIGH" /> 
+		<Node name="ET_S_ENGINE_DOZER_HIGH"	class="SgSoundSourceNode" id="S_ENGINE_DOZER_1_HIGH" /> 
 
 <!-- Missiles --> 
 		<Node name="ET_S_MISSILE1"		class="SgSoundSourceNode" id="S_MISSILE1" /> 
