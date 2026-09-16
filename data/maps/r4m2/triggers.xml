@@ -32,7 +32,7 @@
 				local Acargo = GetEntityByName("mirCargo")
 				if Acargo then Acargo:SetBelong(1042) end
 
-				CreateNewSgNodeObject("ET_S_KAITYP_KIT01", "FIRE01", -1, -1, CVector(2432.502, 190.493, 2876.568), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
+				CreateNewSgNodeObject("ET_S_KAITYP_KIT01", "FIRE01", -1, -1, CVector(2752.313, 169.632, 2665.873), Quaternion(0.0000, 0.0000, 0.0000, 1.0000))
 
 				trigger:Deactivate()
 			end
