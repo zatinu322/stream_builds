@@ -493,12 +493,6 @@
 					Prototype="additional_torque2" />
 
 				<Item
-					PosX="2"
-					PosY="0"
-					Flags="16"
-					Prototype="additional_durability2" />
-
-				<Item
 					PosX="0"
 					PosY="1"
 					Flags="16"
@@ -509,6 +503,30 @@
 					PosY="1"
 					Flags="16"
 					Prototype="firing_rate_guns2" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="additional_durability2" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="firing_rate_guns_and_add_damage_guns" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="add_damage_guns_and_grouping_angle_guns" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="add_stability_and_speed" />
 			</GunsAndGadgets>
 		</Object>
 
@@ -903,12 +921,6 @@
 					Prototype="additional_torque2" />
 
 				<Item
-					PosX="2"
-					PosY="0"
-					Flags="16"
-					Prototype="additional_durability2" />
-
-				<Item
 					PosX="0"
 					PosY="1"
 					Flags="16"
@@ -937,6 +949,30 @@
 					PosY="1"
 					Flags="16"
 					Prototype="add_damage_energy2" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="additional_durability2" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="firing_rate_guns_and_add_damage_guns" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="add_damage_guns_and_grouping_angle_guns" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="add_stability_and_speed" />
 			</GunsAndGadgets>
 		</Object>
 
@@ -1353,12 +1389,6 @@
 					Prototype="additional_fuel_tank2" />
 
 				<Item
-					PosX="1"
-					PosY="0"
-					Flags="16"
-					Prototype="additional_durability2" />
-
-				<Item
 					PosX="0"
 					PosY="1"
 					Flags="16"
@@ -1381,6 +1411,30 @@
 					PosY="1"
 					Flags="16"
 					Prototype="add_damage_energy2" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="additional_durability2" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="firing_rate_guns_and_add_damage_guns" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="add_damage_guns_and_grouping_angle_guns" />
+
+                <Item
+                    PosX="2"
+                    PosY="0"
+                    Flags="16"
+                    Prototype="add_stability_and_speed" />
 			</GunsAndGadgets>
 		</Object>
 
