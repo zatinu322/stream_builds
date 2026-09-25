@@ -9,21 +9,21 @@
 
 			SaveAllToleranceStatus(RS_NEUTRAL)
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
 	<trigger Name="ROLIK15" active="0">
 		<event flypath="start_rolik5" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-			getObj("fatherDw"):SetNodeAction(AT_RESERVED1) 
-			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("fatherDw"):SetNodeAction(AT_RESERVED1)
+			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("hero1Dw"):SetNodeAction(AT_STAND2)
-			getObj("hero1Dw"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("hero1Dw"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 31, 0.25)
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 	<trigger Name="ROLIK16" active="0">
@@ -31,20 +31,20 @@
  		<script>
 			getObj("hero1Dw"):SetNodeAction(AT_RESERVED1)
 			getObj("hero1Dw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
- 			getObj("fatherDw"):SetNodeAction(AT_STAND2) 
+ 			getObj("fatherDw"):SetNodeAction(AT_STAND2)
 			getObj("fatherDw"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 4, 1 )
 			AddCinematicMessage( 41, 0.1)
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 	<trigger Name="ROLIK12" active="0">
 		<event flypath="start_rolik2" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-			getObj("fatherDw"):SetNodeAction(AT_RESERVED1) 
-			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("fatherDw"):SetNodeAction(AT_RESERVED1)
+			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 
 			CreateNewDummyObject( "dweller_player", "hero2Dw", -1, -1, CVector(3352.5, 367.858, 3306.266), Quaternion(0.0000, 0.8930, 0.0000, -0.4501), 0)
 
@@ -53,7 +53,7 @@
 
 			AddCinematicMessage( 5, 0.25  )
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 	<trigger Name="ROLIK13" active="0">
@@ -61,25 +61,25 @@
 		<script>
 			getObj("hero2Dw"):SetNodeAction(AT_RESERVED1)
 			getObj("hero2Dw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
- 			getObj("fatherDw"):SetNodeAction(AT_STAND2) 
+ 			getObj("fatherDw"):SetNodeAction(AT_STAND2)
 			getObj("fatherDw"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 6, 0.25  )
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 	<trigger Name="ROLIK18" active="0">
 		<event flypath="start_rolik8" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
-			getObj("fatherDw"):SetNodeAction(AT_RESERVED1) 
-			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("fatherDw"):SetNodeAction(AT_RESERVED1)
+			getObj("fatherDw"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("hero2Dw"):SetNodeAction(AT_STAND2)
-			getObj("hero2Dw"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("hero2Dw"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 7, 0.25  )
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 	<trigger Name="ROLIK14" active="0">
@@ -91,14 +91,14 @@
 			local rrr = GetEntityByName ("fatherDw")
 			if rrr then rrr:Remove() end
 
-			AddCinematicMessage( 8, 0.25  ) 
+			AddCinematicMessage( 8, 0.25  )
 
 			local Plf = GetPlayerVehicle()
 			Plf:SetCustomControlEnabled( true )
 			Plf:SetExternalPathByName("start_rolik_mycar")
 			Plf:SetCustomControlEnabled( false )
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -112,7 +112,7 @@
 
 			local rrr = GetEntityByName ("hero1Dw")
 			if rrr then rrr:Remove() end
-			
+
 			local rrr = GetEntityByName ("hero2Dw")
 			if rrr then rrr:Remove() end
 
@@ -137,7 +137,7 @@
 
 			SetCameraBehindPlayerVehicle()
 
-			trigger:Deactivate() 
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -162,7 +162,7 @@
 			TActivate("trZasada1_end")
 			TActivate("trZasada1_cam01")
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -181,7 +181,7 @@
 				FVehicle:SetExternalPathByName("fun1_5road")
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -197,7 +197,7 @@
 			Plf:SetThrottle( 0 )
 			Plf:SetCustomControlEnabled( false )
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -271,7 +271,7 @@
 			TActivate("RolikBegin_Lisa")
 			TActivate("RolikEnd_Lisa")
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -304,7 +304,7 @@
 				vehLisa:SetCustomControlEnabled( false )
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -373,7 +373,7 @@
 			TActivate("trLisa1_cam03")
 			TActivate("trLisa1")
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -401,7 +401,7 @@
 				Plf:SetCustomLinearVelocity( 10 )
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -486,7 +486,7 @@
 			TActivate("trLisa2_cam03")
 			TActivate("trLisa2")
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -515,7 +515,7 @@
 				Plf:SetCustomLinearVelocity( 10 )
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -603,7 +603,7 @@
 			TActivate( "trMsg04" )
 			TActivate( "trMsg05" )
 
-			trigger:Deactivate()  
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -633,7 +633,7 @@
 				Plf:SetCustomLinearVelocity( 10 )
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -731,7 +731,7 @@
 				vehLisa:SetCustomLinearVelocity( 10 )
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -810,7 +810,7 @@
 			TActivate( "trFelix1_Msg3" )
 			TActivate( "RolikEnd_Felix1" )
 
-			trigger:Deactivate()  
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -851,12 +851,12 @@
 			end
 
 			getObj("felix01"):SetNodeAction(AT_RESERVED1)
-			getObj("felix01"):SetNextForAnimation(AT_RESERVED1, AT_STAND2) 
-			getObj("felix01"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("felix01"):SetNextForAnimation(AT_RESERVED1, AT_STAND2)
+			getObj("felix01"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 1131, 1 )
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -873,8 +873,8 @@
 		<event flypath="felix1_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("felix01"):SetNodeAction(AT_RESERVED1)
-			getObj("felix01"):SetNextForAnimation(AT_RESERVED1, AT_STAND2) 
-			getObj("felix01"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("felix01"):SetNextForAnimation(AT_RESERVED1, AT_STAND2)
+			getObj("felix01"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 1133, 0.5 )
 
@@ -1010,16 +1010,16 @@
 			if vehPlayer then
 				vehPlayer:SetGamePositionOnGround( CVector(3376.996, 365.777, 3254.298))
 				vehPlayer:SetRotation(Quaternion(-0.042, -0.069, 0.029, 0.996))
-				vehPlayer:SetCustomControlEnabled( true )       
+				vehPlayer:SetCustomControlEnabled( true )
 				vehPlayer:SetExternalPathByName("player_path06")
-				vehPlayer:SetThrottle( 0 )                      
-				vehPlayer:SetCustomLinearVelocity( 0 )         
-				vehPlayer:SetCustomControlEnabled( false )      
-				vehPlayer:SetThrottle( 1 )                      
-				vehPlayer:SetCustomLinearVelocity( 10 )         
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+				vehPlayer:SetThrottle( 1 )
+				vehPlayer:SetCustomLinearVelocity( 10 )
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -1029,10 +1029,10 @@
 			CreateNewDummyObject( "dweller_player", "Son", -1, -1, CVector(3354.277, 367.580, 3297.761), Quaternion(0.036, 0.083, 0.003, 0.996), 0)
 
 			getObj("Son"):SetNodeAction(AT_RESERVED1)
-			getObj("Son"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("Son"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 
 			AddCinematicMessage( 1141, 1 )
-			AddCinematicMessage( 1142, 1 )  
+			AddCinematicMessage( 1142, 1 )
 
 			trigger:Deactivate()
 		</script>
@@ -1042,7 +1042,7 @@
 		<event flypath="FatherDe_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("Son"):SetNodeAction(AT_STAND2)
-			getObj("Son"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("Son"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 1143,0.1)
 
@@ -1054,7 +1054,7 @@
 		<event flypath="FatherDe_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("Son"):SetNodeAction(AT_RESERVED1)
-			getObj("Son"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("Son"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 
 			AddCinematicMessage( 1144, 1 )
 
@@ -1153,16 +1153,16 @@
 			if vehPlayer then
 				vehPlayer:SetGamePositionOnGround( CVector(3376.996, 365.777, 3254.298))
 				vehPlayer:SetRotation(Quaternion(-0.042, -0.069, 0.029, 0.996))
-				vehPlayer:SetCustomControlEnabled( true )       
+				vehPlayer:SetCustomControlEnabled( true )
 				vehPlayer:SetExternalPathByName("player_path06")
-				vehPlayer:SetThrottle( 0 )                      
-				vehPlayer:SetCustomLinearVelocity( 0 )         
-				vehPlayer:SetCustomControlEnabled( false )      
-				vehPlayer:SetThrottle( 1 )                      
-				vehPlayer:SetCustomLinearVelocity( 10 )         
+				vehPlayer:SetThrottle( 0 )
+				vehPlayer:SetCustomLinearVelocity( 0 )
+				vehPlayer:SetCustomControlEnabled( false )
+				vehPlayer:SetThrottle( 1 )
+				vehPlayer:SetCustomLinearVelocity( 10 )
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -1174,7 +1174,7 @@
 
 			getObj("Son"):SetNodeAction(AT_STAND1)
 			getObj("RolikFather"):SetNodeAction(AT_RESERVED2)
-			getObj("RolikFather"):SetNextForAnimation(AT_RESERVED2, -1) 
+			getObj("RolikFather"):SetNextForAnimation(AT_RESERVED2, -1)
 
 			AddCinematicMessage( 33330, 0.5 )
 			AddCinematicMessage( 33331, 0.25 )
@@ -1244,7 +1244,7 @@
 		<event flypath="Father_cam07" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("Son"):SetNodeAction(AT_RESERVED1)
-			getObj("Son"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("Son"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 
 			AddCinematicMessage( 33337, 0.5)
 
@@ -1316,7 +1316,7 @@
 			TActivate( "trFelix2" )
 			TActivate( "RolikEnd_Felix2" )
 
-			trigger:Deactivate()  
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -1335,7 +1335,7 @@
 
 			AddCinematicMessage( 1151, 1 )
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -1352,7 +1352,7 @@
 				vehFelix0:SetSkin(4)
 			end
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -1360,7 +1360,7 @@
 		<event flypath="felix2_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("felix01"):SetNodeAction(AT_RESERVED2)
-			getObj("felix01"):SetNextForAnimation(AT_RESERVED2, AT_STAND1) 
+			getObj("felix01"):SetNextForAnimation(AT_RESERVED2, AT_STAND1)
 
 			AddCinematicMessage( 1152, 0.25 )
 
@@ -1444,7 +1444,7 @@
 
 			AddCinematicMessage( 1153, 0.25 )
 
-			trigger:Deactivate()  
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -1561,7 +1561,7 @@
 			TActivate( "trFelix4_cam11" )
 			TActivate( "RolikEnd_Felix4" )
 
-			trigger:Deactivate()  
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -1580,11 +1580,13 @@
 			local humPlayer = CreateNewDummyObject( "dweller_player", "RolikSon", -1, -1, CVector(462.265, 306.218, 1818.668), Quaternion( 0.000, -0.806, 0.000, 0.591 ), 0)
 
 			getObj("RolikSon"):SetNodeAction(AT_RESERVED1)
-			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
+            -- возвращаем Феликсу его истинный рост
+            getObj("RolikFelix"):SetProperty("NodeScale", 0.3)
 
 			AddCinematicMessage( 1155, 2 )
 
-			trigger:Deactivate()    
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -1592,9 +1594,9 @@
 		<event flypath="Felix4_cam02" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikFelix"):SetNodeAction(AT_RESERVED1)
-			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("RolikSon"):SetNodeAction(AT_STAND2)
-			getObj("RolikSon"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 1156, 0.25 )
 
@@ -1606,9 +1608,9 @@
 		<event flypath="Felix4_cam03" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikSon"):SetNodeAction(AT_RESERVED1)
-			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("RolikFelix"):SetNodeAction(AT_STAND2)
-			getObj("RolikFelix"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 1157, 0.25 )
 
@@ -1620,9 +1622,9 @@
 		<event flypath="Felix4_cam04" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikFelix"):SetNodeAction(AT_RESERVED1)
-			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("RolikSon"):SetNodeAction(AT_STAND2)
-			getObj("RolikSon"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 1158, 0.25 )
 
@@ -1634,9 +1636,9 @@
 		<event flypath="Felix4_cam05" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikSon"):SetNodeAction(AT_RESERVED1)
-			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("RolikFelix"):SetNodeAction(AT_STAND2)
-			getObj("RolikFelix"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 1159, 0.25 )
 
@@ -1648,9 +1650,9 @@
 		<event flypath="Felix4_cam06" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikFelix"):SetNodeAction(AT_RESERVED2)
-			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED2, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED2, AT_STAND1)
 			getObj("RolikSon"):SetNodeAction(AT_STAND2)
-			getObj("RolikSon"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 11510, 0.25 )
 
@@ -1662,9 +1664,9 @@
 		<event flypath="Felix4_cam07" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikSon"):SetNodeAction(AT_RESERVED1)
-			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("RolikFelix"):SetNodeAction(AT_STAND2)
-			getObj("RolikFelix"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 11511, 0.25 )
 
@@ -1676,9 +1678,9 @@
 		<event flypath="Felix4_cam08" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikFelix"):SetNodeAction(AT_RESERVED1)
-			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("RolikSon"):SetNodeAction(AT_STAND2)
-			getObj("RolikSon"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 11512, 0.25 )
 
@@ -1690,9 +1692,9 @@
 		<event flypath="Felix4_cam09" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikSon"):SetNodeAction(AT_RESERVED1)
-			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1) 
+			getObj("RolikSon"):SetNextForAnimation(AT_RESERVED1, AT_STAND1)
 			getObj("RolikFelix"):SetNodeAction(AT_STAND2)
-			getObj("RolikFelix"):SetNextForAnimation(AT_STAND2, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_STAND2, AT_STAND1)
 
 			AddCinematicMessage( 11513, 0.25 )
 
@@ -1704,7 +1706,7 @@
 		<event flypath="Felix4_cam10" eventid="GE_START_CINEMATIC_FLY" ObjName="Player1" />
 		<script>
 			getObj("RolikFelix"):SetNodeAction(AT_RESERVED2)
-			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED2, AT_STAND1) 
+			getObj("RolikFelix"):SetNextForAnimation(AT_RESERVED2, AT_STAND1)
 
 			AddCinematicMessage( 11514, 0.25 )
 

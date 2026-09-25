@@ -663,22 +663,22 @@
 	<Item
 		id="denscoutCab"
 		locForm="1"
-		value="Кабина Лисы" />
+		value="Кабина Сасисы" />
 
 	<Item
 		id="scoutCab01"
 		locForm="1"
-		value="Кабина Скаута" />
+		value="Кабина Сакута" />
 
 	<Item
 		id="scoutCab02"
 		locForm="1"
-		value="Кабина Скаута" />
+		value="Кабина Сакута" />
 
 	<Item
 		id="scoutCab03"
 		locForm="1"
-		value="Кабина Скаута" />
+		value="Кабина Сакута" />
 
 	<Item
 		id="tank01"
@@ -838,17 +838,17 @@
 	<Item
 		id="r1m1_scout01"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="r1m1_scout02"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="r1m1_scout03"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="r1m1_molokovoz01"
@@ -888,27 +888,27 @@
 	<Item
 		id="ScoutEnemySpawn"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="Scout01"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="Scout02"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="Scout03"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="ArcadeScout01"
 		locForm="0"
-		value="Скаут GT" />
+		value="Сакут GT" />
 		
 	<Item
 		id="FighterEnemySpawn"
@@ -1018,12 +1018,12 @@
 	<Item
 		id="DemoBandit"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="LisaCar"
 		locForm="1"
-		value="Лиса" />
+		value="Сасиса" />
 
 	<Item
 		id="DemoFighter1"
@@ -1319,7 +1319,7 @@
 	<Item
 		id="PublicDemoSinks"
 		locForm="0"
-		value="Бродяга Синкс" />
+		value="Симпатяга Синкс" />
 
 	<Item
 		id="PublicDemoBandit1"
@@ -1419,7 +1419,7 @@
 	<Item
 		id="ScoutMenu"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="FighterMenu"
@@ -1499,7 +1499,7 @@
 	<Item
 		id="r2m2_scout01"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="r2m2_Hunter01"
@@ -1524,17 +1524,17 @@
 	<Item
 		id="r2m1_scout03"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="r2m1_scout02"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="r2m1_scout01"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="r2m1_Molokovoz01"
@@ -1564,7 +1564,7 @@
 	<Item
 		id="boss03"
 		locForm="0"
-		value="Оракул" />
+		value="Ораракул" />
 
 	<Item
 		id="boss04"
@@ -1724,7 +1724,7 @@
 	<Item
 		id="arcadescoutCab"
 		locForm="1"
-		value="Кабина Вездеходного скаута" />
+		value="Кабина Вездеходного Сакута" />
 
 	<Item
 		id="fakeCargo"
@@ -1779,7 +1779,7 @@
 	<Item
 		id="Scout"
 		locForm="0"
-		value="Скаут" />
+		value="Сакут" />
 
 	<Item
 		id="Molokovoz"

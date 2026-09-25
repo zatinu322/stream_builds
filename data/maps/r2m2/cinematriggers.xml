@@ -38,6 +38,9 @@
 
 			CreateNewDummyObject( "dweller_player", "humPlayer", -1, -1, CVector(3189.766, 279.448, 1328.700), Quaternion(0.000, 0.788, 0.000, 0.616), 0)
 			CreateNewDummyObject( "dweller_felix", "humFelix", -1, -1, CVector(3264.972, 279.936, 1325.833), Quaternion(0.000, -0.789, 0.000, 0.614), 0)
+            -- Возвращаем Феликсу его истинный рост
+            getObj("humFelix"):SetProperty("NodeScale", 0.3)
+
 			local FVehicle = GetEntityByName("vehFelix")
 			if FVehicle then
 				FVehicle:SetSkin ( 1 )
@@ -98,7 +101,7 @@
 			TActivate( "FELIXMONAXDIE" )
 
 			CompleteQuest("r2m2_FightFelix_1")
-	
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -218,7 +221,7 @@
 				Fly("AXELARENADIE_cam09", CINEMATIC_NO_AIM, 0, 17, 0, 0 )
 				Fly("AXELARENADIE_cam10", CINEMATIC_NO_AIM, 0, 25, 0, 0 )
 				Fly("AXELARENADIE_cam11", CINEMATIC_NO_AIM, 0, 9, 0, 1 )
-				
+
 				StartCinematic()
 			else
 				Fly("AXELARENADIE_cam02", CINEMATIC_NO_AIM, 0, 8, 1, 0 )
@@ -326,11 +329,11 @@
 				AddCinematicMessage( 34, 0.01 )
 			elseif (IsQuestComplete("FindBen_Quest") and IsQuestComplete("d_TakeGeneralOfBandits_Quest")) then
 				AddCinematicMessage( 25, 0.01 )
-				
+
 				TActivate("trExplosion")
 			else
 				AddCinematicMessage( 11, 0.01 )
-				
+
 				TActivate("trExplosion")
 			end
 
@@ -581,7 +584,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg16" active="0">
 		<event msgid="16" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -599,7 +602,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg18" active="0">
 		<event msgid="18" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -617,7 +620,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg20" active="0">
 		<event msgid="20" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -635,7 +638,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg22" active="0">
 		<event msgid="22" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -653,7 +656,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg221" active="0">
 		<event msgid="221" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -689,7 +692,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg26" active="0">
 		<event msgid="26" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -707,7 +710,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg28" active="0">
 		<event msgid="28" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -725,7 +728,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg30" active="0">
 		<event msgid="30" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -743,7 +746,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg32" active="0">
 		<event msgid="32" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -761,7 +764,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trHeroMsg33" active="0">
 		<event msgid="33" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -789,7 +792,7 @@
 				Hero:SetNodeAction(AT_STAND1)
 				Hero:SetNextForAnimation(AT_STAND1, AT_STAND1)
 			end
-			local Axel = getObj("humAxel")				
+			local Axel = getObj("humAxel")
 			if Axel then
 				Axel:SetNodeAction(AT_STAND2)
 				Axel:SetNextForAnimation(AT_STAND2, AT_STAND1)
@@ -807,7 +810,7 @@
 				Hero:SetNodeAction(AT_STAND1)
 				Hero:SetNextForAnimation(AT_STAND1, AT_STAND1)
 			end
-			local Axel = getObj("humAxel")				
+			local Axel = getObj("humAxel")
 			if Axel then
 				Axel:SetNodeAction(AT_STAND2)
 				Axel:SetNextForAnimation(AT_STAND2, AT_STAND2)
@@ -816,7 +819,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trAxelMsg19" active="0">
 		<event msgid="19" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -825,7 +828,7 @@
 				Hero:SetNodeAction(AT_STAND1)
 				Hero:SetNextForAnimation(AT_STAND1, AT_STAND1)
 			end
-			local Axel = getObj("humAxel")				
+			local Axel = getObj("humAxel")
 			if Axel then
 				Axel:SetNodeAction(AT_STAND2)
 				Axel:SetNextForAnimation(AT_STAND2, AT_STAND2)
@@ -834,7 +837,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trAxelMsg21" active="0">
 		<event msgid="21" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -843,7 +846,7 @@
 				Hero:SetNodeAction(AT_STAND1)
 				Hero:SetNextForAnimation(AT_STAND1, AT_STAND1)
 			end
-			local Axel = getObj("humAxel")				
+			local Axel = getObj("humAxel")
 			if Axel then
 				Axel:SetNodeAction(AT_STAND2)
 				Axel:SetNextForAnimation(AT_STAND2, AT_STAND2)
@@ -853,7 +856,7 @@
 		</script>
 	</trigger>
 
-	
+
 	<trigger Name="trAxelMsg24" active="0">
 		<event msgid="24" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -898,7 +901,7 @@
 				Hero:SetNodeAction(AT_STAND1)
 				Hero:SetNextForAnimation(AT_STAND1, AT_STAND1)
 			end
-			local Axel = getObj("humAxel")				
+			local Axel = getObj("humAxel")
 			if Axel then
 				Axel:SetNodeAction(AT_STAND2)
 				Axel:SetNextForAnimation(AT_STAND2, AT_STAND1)
@@ -907,7 +910,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trAxelMsg29" active="0">
 		<event msgid="29" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -916,7 +919,7 @@
 				Hero:SetNodeAction(AT_STAND1)
 				Hero:SetNextForAnimation(AT_STAND1, AT_STAND1)
 			end
-			local Axel = getObj("humAxel")				
+			local Axel = getObj("humAxel")
 			if Axel then
 				Axel:SetNodeAction(AT_STAND2)
 				Axel:SetNextForAnimation(AT_STAND2, AT_STAND2)
@@ -925,7 +928,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trAxelMsg31" active="0">
 		<event msgid="31" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -934,7 +937,7 @@
 				Hero:SetNodeAction(AT_STAND1)
 				Hero:SetNextForAnimation(AT_STAND1, AT_STAND1)
 			end
-			local Axel = getObj("humAxel")				
+			local Axel = getObj("humAxel")
 			if Axel then
 				Axel:SetNodeAction(AT_STAND2)
 				Axel:SetNextForAnimation(AT_STAND2, AT_STAND2)
@@ -943,7 +946,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trAxelMsg311" active="0">
 		<event msgid="311" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -952,7 +955,7 @@
 				Hero:SetNodeAction(AT_STAND1)
 				Hero:SetNextForAnimation(AT_STAND1, AT_STAND1)
 			end
-			local Axel = getObj("humAxel")				
+			local Axel = getObj("humAxel")
 			if Axel then
 				Axel:SetNodeAction(AT_STAND2)
 				Axel:SetNextForAnimation(AT_STAND2, AT_STAND2)
@@ -980,7 +983,7 @@
 			trigger:Deactivate()
 		</script>
 	</trigger>
-	
+
 	<trigger Name="trAxelMsg15" active="0">
 		<event msgid="15" eventid="GE_START_CINEMATIC_MSG" ObjName="Player1" />
 		<script>
@@ -1057,7 +1060,7 @@
 			Fly("LISARUNOUTDIE_cam12", CINEMATIC_NO_AIM, 0, 5, 0, 0 )
 			Fly("LISARUNOUTDIE_cam13", CINEMATIC_NO_AIM, 0, 5, 0, 1 )
 			StartCinematic()
-	
+
 			TActivate("RolikEnd_LISARUNOUTDIE")
 			TActivate("trLISARUNOUTDIE_cam01")
 			TActivate("trLISARUNOUTDIE_cam02")
@@ -1380,21 +1383,21 @@
 	<trigger Name="cinMovePlToR4M1_begin" active="0">
 		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
 		<script>
-			
+
 			SaveAllToleranceStatus(RS_NEUTRAL)
-			
+
 			EnableGodMode()
-			
+
 			Fly("lodka1", CINEMATIC_NO_AIM, 0, 21, 1, 0 )
 			Fly("lodka2", CINEMATIC_NO_AIM, 0, 15, 0, 1 )
 			StartCinematic()
-			
+
 			PlayCustomMusic("Bio02")
-			
+
 			TActivate("cinMovePlToR4M1_Fade")
 			TActivate("cinMovePlToR4M1_cam03")
 			TActivate("cinMovePlToR4M1_End")
-			
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1402,16 +1405,16 @@
 	<trigger Name="cinMovePlToR4M1_Fade" active="0">
 		<event eventid="GE_CINEMATIC_ENTER_FADE_IN" ObjName="Player1" />
 		<script>
-			
+
 			CreateNewDummyObject( "submarina",	"SubmR2M2", -1, -1, CVector(3437.163, 216.000, 2342.168), Quaternion(0.0000, -0.8704, 0.0000, 0.4924), 0 )
-			
+
 			local moverId = CreateNewObject { prototypeName	= "cinematicMover", objName  = "" }
-			local mover = GetEntityByID( moverId ) 
+			local mover = GetEntityByID( moverId )
 			local controlledObj = GetEntityByName("SubmR2M2")
 			if controlledObj then
 				mover:SetObjAndPath( controlledObj:GetId(), "lodka3", 20 )
 			end
-			
+
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
 				vehPlayer:SetCustomLinearVelocity( 0 )
@@ -1419,7 +1422,7 @@
 				vehPlayer:SetPosition( CVector(3001.291, 267.525, 2082.625))
 				vehPlayer:SetRotation(Quaternion(0.002, 0.482, 0.001, 0.876))
 			end
-			
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1433,7 +1436,7 @@
 			end
 
 			TActivate("subzaezd11")
-			
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1441,13 +1444,13 @@
 	<trigger Name="subzaezd11" active="0">
 		<event	timeout="7"		eventid="GE_TIME_PERIOD" />
 		<script>
-			
+
 			local vehPlayer = GetPlayerVehicle()
 			if vehPlayer then
 				vehPlayer:SetExternalPathByName("subzaezd1")
 				vehPlayer:LimitMaxSpeed( 20 )
 			end
-			
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -1477,7 +1480,7 @@
 			RestoreAllToleranceStatus()
 
 			SetCameraBehindPlayerVehicle()
-			
+
 			PassToMap("r4m1", "FromR2M2", 0 , 1)
 
 			trigger:Deactivate()
