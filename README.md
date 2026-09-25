@@ -2,10 +2,8 @@
   <img src="./assets/CommunityDisaster.png" alt="ComDisLogo", width="600">
   <br><br>
   <div>
-    <!-- TODO: update link -->
-    <a href="#"><img src="https://img.shields.io/badge/Version-v1.2.3-darkgreen?style=for-the-badge" alt="Version"/></a>
-    <!-- TODO: update release date -->
-    <img src="https://img.shields.io/badge/Release_date-TBA-darkgreen?style=for-the-badge" alt="Latest release"/>
+    <a href="https://github.com/zatinu322/stream_builds/releases/tag/v1.2.3"><img src="https://img.shields.io/badge/Version-v1.2.3-darkgreen?style=for-the-badge" alt="Version"/></a>
+    <img src="https://img.shields.io/badge/Release_date-23/09/2026-darkgreen?style=for-the-badge" alt="Latest release"/>
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch"><img src="https://img.shields.io/badge/Community_Remaster-v1.14.1-blue?style=for-the-badge" alt="Community Remaster support"/></a>
     <a href="https://github.com/DeusExMachinaTeam/EM-CommunityPatch"><img src="https://img.shields.io/badge/Community_Patch-not_supported-darkred?style=for-the-badge" alt="Community Patch support"/></a>
     <img src="https://img.shields.io/badge/Vanilla_game-not_supported-darkred?style=for-the-badge" alt="Community Patch support"/>
@@ -39,7 +37,7 @@ _Ex Machina Community Disaster_ - модификация для Ex Machina на 
 
 |Версия мода|Поддерживаемая версия игры|Локализация|Ссылка|
 |-|-|-|-|
-|v1.2.3|Community Remaster v1.14.1|RUS|[Скачать]()| # TODO: Update link
+|v1.2.3|Community Remaster v1.14.1|RUS|[Скачать](https://github.com/zatinu322/stream_builds/releases/tag/v1.2.3)|
 |v1.2.2|Community Remaster v1.14.1|RUS|[Скачать](https://github.com/zatinu322/stream_builds/releases/tag/v1.2.2-cr)|
 |v1.2.1|Community Remaster v1.14.1|RUS|[Скачать](https://github.com/zatinu322/stream_builds/releases/tag/v1.2.1-cr)|
 |v1.2|Community Remaster v1.14|RUS|[Скачать](https://github.com/zatinu322/stream_builds/releases/tag/v1.2-cr)|
